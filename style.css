@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Lora', serif; */
+/*desktop*/
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+nav{
+    padding: 10px 50px;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    box-shadow: 0px 10px 5px 0px rgba(177,166,136,0.59);
+}
+/**/
+.nav2{
+    display: none;
+}
+.l-links{
+    display: none;
+}
+/**/
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+p{ margin: 10px 0 0 0 ;}
+h1{
+    margin: 0;
+    color:#B1A688;
+    font-size: 125px;
+    font-family: 'Lora', serif;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
+/*nav*/
+.links{
+    margin: 0 30px;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+}
+.logo-link{
+    display: flex;
+    align-items: center;
+}
+.h-links{
+    text-decoration: none;
+    margin: 0 5px;
+}
+.h-links:hover{color: #B1A688;}
+.icon-link{
+    display: flex;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+.il{
+    width: 50px;
+    border:2px solid #ffffff;
+    padding: 5px;
+    margin: 0 0 0 10px;
+    text-align: center;
+    font-size: 12px;
+}
+.il:hover{
+    border-radius: 5px;
+    border:2px solid #B1A688;
+}
+/*sections*/
+section{
+    margin: 30px auto;
+    padding: 0 20px 0;
+    max-width: 1080px;
+}
+.top-ar{
+    display: flex;
+}
+.t-ar-l{
+    flex:85%;
+}
+.t-ar-r{
+    flex:15%;
+}
+.rline{
+    font-size: 16px;
+    border-left: 5px solid #bcbcbc;
+    padding: 0 10px 0;
+    margin: 50px 0 0 20px;
+}
+.rline a img{
+    transition: 0.2s;
+}
+.rline a img:hover{
+    border-radius: 5px;
+    border:3px solid #B1A688
+}
+
+/*cards*/
+.row{display: grid;}
+.r1{
+    grid-template-columns: 50% 50%;
+}
+.r2{
+    grid-template-columns: 100%;
+}
+.card{
+    text-align: center;
+}
+.card p{
+    width: 50%;
+    margin: 0 auto;
+}
+/**/
+.bot{
+    display: flex;
+    margin-top: 50px;
+}
+.onel{
+    flex:50%;
+}
+.rate{
+    flex:50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*footer*/
+footer{
+    padding: 30px;
+    margin-top:100px;
+    background-color: #212529;
+    color:#ffffff;
+    text-align: center;
+}
+/*tab*/
+@media only screen and (min-width: 540px) and (max-width: 990px) {
+/*nav*/
+.nav{
+    display: none;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.l-btn img{
+    width: 30px;
+}
+.il{
+    margin: 0;
+}
+#menu{
+    display: block;
+}
+#close{
+    display: none;
+}
+.l-links div{
+    font-size: 20px;
+    margin-top: 10px;
+}
+/*sections*/
+.rline{
+    font-size: 16px;
+    border-left: 5px solid #bcbcbc;
+    padding: 0 10px 0;
+    margin: 50px 0 0 20px;
+}
+
+/*cards*/
+.row{display: block;}
+.card p{
+    width: 60%;
+}
+/**/
+.bot{
+    display: flex;
+    margin-top: 50px;
+}
+.onel{
+    flex:60%;
+}
+.rate h1{
+    font-size: 100px;
+}
+.rate{
+    flex:40%;
+    padding: 50px 0 0 20px;
+}
+
+}
+/*mobile*/
+@media only screen and (min-width: 300px) and (max-width: 539px) {
+/*nav*/
+nav{
+    padding: 10px 10px;
+}
+.nav{
+    display: none;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.l-btn img{
+    width: 20px;
+}
+.il{
+    margin: 0;
+}
+#menu{
+    display: block;
+}
+#close{
+    display: none;
+}
+
+.l-links div{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/*sections*/
+h1{
+    font-size: 80px;
+}
+p{
+    font-size: 14px;
+}
+.rline a img{
+    width: 40px;
+}
+.rline{
+    font-size: 16px;
+    border-left: 5px solid #bcbcbc;
+    padding: 0 10px 0;
+    margin: 50px 0 0 20px;
+}
+
+/*cards*/
+.row{display: block;}
+.card p{
+    width: 90%;
+}
+/**/
+.bot{
+    display: block;
+    margin-top: 50px;
+}
+.rate h1{
+    font-size: 85px;
+}
+.rate{
+    padding: 10px 0 0 10px;
+}
+}
